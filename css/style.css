@@ -1,0 +1,180 @@
+@import "/css/reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Geologica:wght@500;600;700&family=Marck+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+
+
+.body {
+    color: black; 
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.title-1 {
+    font-size: 34px;
+    font-weight: 600;
+}
+
+.title-2 {
+    font-size: 34px;
+    font-weight: 600;
+}
+
+.title-3 {
+    font-size: 14px;
+    font-weight: 600;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.title-3 a{
+  color: black;
+}
+
+/* header */
+
+.header {
+    padding-top: 46px;
+    background-color: rgb(205, 133, 247, 0.2);
+    
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 76px;
+    background-color: rgba(221, 186, 241, 0.2);
+
+}
+
+.logo {
+    font-family: 'Comfortaa', sans-serif;
+    font-family: 'Geologica', sans-serif;
+    font-family: 'Marck Script', cursive;
+    position: relative;
+    padding: 0 12px 3px 20px;
+    font-weight: 700;
+    font-size: 42px;
+    color: black;
+}
+
+/* NAV */
+
+.nav-list {
+    display: flex;
+    column-gap: 50px;
+    font-weight: 500;
+
+}
+
+.nav-link {
+    color: black;
+}
+
+.nav-link.active {
+    color: rgb(58, 59, 59);
+}
+
+/* Header content */
+
+.header-row {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+}
+
+.header-content {
+    margin-top: 124px;
+    max-width: 500px;
+}
+
+.header-heading {
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 44px;
+}
+
+.header-content p {
+    line-height: 2;
+}
+
+
+/* Service */
+
+.services {
+    padding: 90px 0;
+    background-color: rgb(144, 143, 143, 0.2);
+}
+
+.services-header {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.services-row {
+    display: flex;
+    column-gap: 30px;
+}
+
+.service-card {
+
+}
+
+.service-card-img {
+    margin-bottom: 30px;
+}
+
+.service-card-title {
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.service-card p {
+        line-height: 2;
+        text-align: center;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+/* Portfolio */
+
+.portfolio {
+    padding: 90px 0;
+}
+
+.portfolio-title {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.project-row {
+    display: flex;
+    column-gap: 30px;
+}
+
+.project {
+    text-align: center;
+}
+
+.project-img {
+    margin-bottom: 40px;
+}
+
+.project-title {
+    font-size: 18px;
+}
+
+.project-title a {
+    color: black;
+}
