@@ -1,4 +1,4 @@
-@import "/css/reset.css";
+@import "/beauty/css/reset.css";
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Geologica:wght@500;600;700&family=Marck+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
 
@@ -91,7 +91,10 @@
     display: flex;
     column-gap: 50px;
     font-weight: 500;
+}
 
+.nav-button {
+    display: none;
 }
 
 .nav-link {
@@ -141,10 +144,13 @@
 .services-row {
     display: flex;
     column-gap: 30px;
+    row-gap: 60px;
+    flex-wrap: wrap;
 }
 
 .service-card {
-
+    flex: 1 1 0;
+    min-width: 315px;
 }
 
 .service-card-img {
@@ -217,6 +223,7 @@
 
 .pricelist {
     padding: 30px 0;
+    background-color: rgb(144, 143, 143, 0.2);
 }
 
 .pricelist-title {
@@ -232,6 +239,7 @@
 /* Blog */
 
 .blog {
+    padding: 30px 0;
     margin-bottom: 40px;
 }
 
@@ -247,13 +255,13 @@
 /* Footer */
 
 .contacts {
-    margin-top: 40px;
     text-align: center;
     background-color: rgb(75, 96, 96, 0.2);
 }
 
 .contacts-title {
     margin-bottom: 40px;
+    padding: 30px 0;
 }
 
 .contacts-content {
@@ -281,9 +289,9 @@
     margin-bottom: 40px;
 }
 
-.contacts-footer {
+/* .contacts-footer {
 
-}
+} */
 
 /* Button on top */
 
@@ -333,7 +341,7 @@
     }
   }
 
-  /* Открывающийся список (надо доделать) */
+  /* Открывающийся контент */
 
   #project-row-1 {
     display: none;

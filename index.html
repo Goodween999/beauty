@@ -7,9 +7,8 @@
     <title>Алена</title>
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/media.css">
-    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/beauty/css/style.css">
+    <link rel="stylesheet" href="/beauty/css/media.css">
 
 </head>
 <body>
@@ -18,7 +17,7 @@
             <!-- Nav - header -->
             <div class="header-nav">
                 <a href = "#!" class="logo">Алёна</a>
-                <nav class="nav">
+                <nav id="nav" class="nav">
                     <ul class="nav-list">
                         <li class="nav-item"><a href="#!" class="nav-link active">Главная</a></li>
                         <li class="nav-item"><a href="#services" class="nav-link">Услуги</a></li>
@@ -27,6 +26,9 @@
                         <li class="nav-item"><a href="#blog" class="nav-link">Статьи</a></li>
                         <li class="nav-item"><a href="#contacts" class="nav-link">Контакты</a></li>
                     </ul>
+                    <button id="nav-btn" class="nav-button">
+                        <img id="nav-btn-img" src="/beauty/img/icons/icon8.png" alt="Nav button">
+                    </button>
                 </nav>
             </div>
 
@@ -39,7 +41,7 @@
                         </div>
 
                         <div class="header-img">
-                            <img src="img/logo1.png" alt="Алена Белоус">
+                            <img src="/beauty/img/logo1.png" alt="Алена Белоус">
                         </div>
                      </div>
 
@@ -60,21 +62,21 @@
             <div class="services-row">
 
                 <div class="service-card">
-                    <img class="service-card-img" src="/img/services/makeup1.jpg" alt="Макияж">
+                    <img class="service-card-img" src="/beauty/img/services/makeup1.jpg" alt="Макияж">
                     <h3 class="service-card-title">Макияж</h3>
                     <p>От 3500 р.</p>
                     <a href="#" button type="button" class="btn btn-dark">Записаться</a>
                 </div>
 
                 <div class="service-card">
-                    <img class="service-card-img" src="/img/services/makeup2.jpg" alt="Брови">
+                    <img class="service-card-img" src="/beauty/img/services/makeup2.jpg" alt="Брови">
                     <h3 class="service-card-title">Брови</h3>
                     <p>От 3500 р.</p>
                     <a href="#" button type="button" class="btn btn-dark">Записаться</a>
                 </div>
 
                 <div class="service-card">
-                    <img class="service-card-img" src="/img/services/makeup4.jpg" alt="Ресницы">
+                    <img class="service-card-img" src="/beauty/img/services/makeup4.jpg" alt="Ресницы">
                     <h3 class="service-card-title">Ресницы</h3>
                     <p>От 3500 р.</p>
                     <a href="#" button type="button" class="btn btn-dark">Записаться</a>
@@ -93,22 +95,42 @@
             </div>
             <div class="project-row">
                 <div class="project">
-                    <img class="project-img" src="/img/gallery/1.jpg" alt="">
+                    <img class="project-img" src="/beauty/img/gallery/1.jpg" alt="">
                     <h3 class="project-title"><a href="#!">Проект</a></h3>
                 </div>
 
                 <div class="project">
-                    <img class="project-img" src="/img/gallery/6.jpg" alt="">
+                    <img class="project-img" src="/beauty/img/gallery/6.jpg" alt="">
                     <h3 class="project-title"><a href="#!">Проект</a></h3>
                 </div>
 
                 <div class="project">
-                    <img class="project-img" src="/img/gallery/5.jpg" alt="">
+                    <img class="project-img" src="/beauty/img/gallery/5.jpg" alt="">
                     <h3 class="project-title"><a href="#!">Проект</a></h3>
                 </div>
             </div>
 
+            <div id="project-row-1">
+                <div class="project-row">
+                    <div class="project">
+                        <img class="project-img" src="/beauty/img/gallery/3.jpg" alt="">
+                        <h3 class="project-title"><a href="#!">Проект</a></h3>
+                    </div>
+    
+                    <div class="project">
+                        <img class="project-img" src="/beauty/img/gallery/4.jpg" alt="">
+                        <h3 class="project-title"><a href="#!">Проект</a></h3>
+                    </div>
+    
+                    <div class="project">
+                        <img class="project-img" src="/beauty/img/gallery/2.jpg" alt="">
+                        <h3 class="project-title"><a href="#!">Проект</a></h3>
+                    </div>
+                </div>
+            </div>
+
             <h2 class="title-3" value="Click" onmousedown="viewDiv()">Смотреть еще >>></h2>
+
         </div>
     </section>
 
@@ -147,7 +169,7 @@
             </div>
             <div class="card-deck">
                 <div class="card">
-                  <img src="/img/blog/1.jpg" class="card-img-top" alt="...">
+                  <img src="/beauty/img/blog/1.jpg" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title">Заголовок карточки</h5>
                     <p class="card-text">Это более длинная карта С вспомогательным текстом ниже в качестве естественного перехода к дополнительному контенту. Этот контент немного длиннее.</p>
@@ -155,7 +177,7 @@
                   </div>
                 </div>
                 <div class="card">
-                  <img src="/img/blog/2.jpg" class="card-img-top" alt="...">
+                  <img src="/beauty/img/blog/2.jpg" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title">Заголовок карточки</h5>
                     <p class="card-text">Эта подсказка имеет вспомогательный текст ниже как естественный ввод к дополнительному контенту.</p>
@@ -163,7 +185,7 @@
                   </div>
                 </div>
                 <div class="card">
-                  <img src="/img/blog/3.jpg" class="card-img-top" alt="...">
+                  <img src="/beauty/img/blog/3.jpg" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title">Заголовок карточки</h5>
                     <p class="card-text">Это более широкая карта С вспомогательным текстом ниже в качестве естественного перехода к дополнительному контенту. Эта карточка имеет даже более длинный контент, чем первая, чтобы показать действие одинаковой высоты.</p>
@@ -188,10 +210,10 @@
                 <p class="title-4"><a href="#!">Согласие на обработку персональных данных</a></p>
             </div>
             <div class="contacts-social">
-                <a href="#!"><img src="/img/icons/icon4.png" alt=""></img></a>
-                <a href="#!"><img src="/img/icons/icon5.png" alt=""></img></a>
-                <a href="#!"><img src="/img/icons/icon6.png" alt=""></img></a>
-                <a href="#!"><img src="/img/icons/icon7.png" alt=""></img></a>
+                <a href="#!"><img src="/beauty/img/icons/icon4.png" alt=""></img></a>
+                <a href="#!"><img src="/beauty/img/icons/icon5.png" alt=""></img></a>
+                <a href="#!"><img src="/beauty/img/icons/icon6.png" alt=""></img></a>
+                <a href="#!"><img src="/beauty/img/icons/icon7.png" alt=""></img></a>
             </div>
             <div class="contacts-footer">
                 <p>© 2023 Все права защищены.</p>
@@ -203,6 +225,6 @@
 
     <div class="btn-up btn-up_hide"></div>
 
-    <script src="/js/main.js"> </script>
+    <script src="/beauty/js/main.js"> </script>
 </body>
 </html>

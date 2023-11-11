@@ -30,9 +30,24 @@ const btnUp = {
   
   btnUp.addEventListener();
 
-  // Скрытый div. Недоделан
+  // Скрытый div
 
   function viewDiv(){
     document.getElementById("project-row-1").style.display = "block";
   };
+
+  // Адаптиное меню
+
+  const nav = document.querySelector('#nav');
+  const navBtn = document.querySelector('#nav-btn');
+  const navBtnImg = document.querySelector('#nav-btn-img');
+
+  navBtn.onclick = () => {
+    if (nav.classList.toggle('open')) {
+      navBtnImg.src = "./beauty/img/icons/icon9.png";
+    }
+    else {
+      navBtnImg.src = "./beauty/img/icons/icon8.png";
+    }
+  }
 
